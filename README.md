@@ -1,5 +1,5 @@
 # COURSENAME
-This is the repository for the LinkedIn Learning course [COURSENAME]. The full course is available from [LinkedIn Learning](LICOURSEURL).
+This is the repository for the LinkedIn Learning course WordPress: Action and Filter Hooks. The full course is available from [LinkedIn Learning](LICOURSEURL).
 
 [![COURSENAME](COURSEIMAGE)](LICOURSEURL)
 
@@ -14,6 +14,6 @@ Some branches will have a beginning and an end state. These are marked with the 
 
 ## Installing
 1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+	- Local WordPress install
+	- Code editor
+2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree
