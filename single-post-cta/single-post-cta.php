@@ -21,10 +21,15 @@ if ( !defined( 'ABSPATH' ) ) {
  * Load stylesheet
  */
 function spc_load_stylesheet() {
-	if ( is_single() ) {
-		wp_enqueue_style( 'spc_stylesheet', plugin_dir_url(__FILE__) .'spc-styles.css' );
+	if ( apply_filters( 'spc_load_styles', true ) ) {
+		if ( is_single() ) {
+			wp_enqueue_style( 'spc_stylesheet', plugin_dir_url(__FILE__) .'spc-styles.css' );
+		}
 	}
 }
+
+// Uncomment the following line to disable stylesheet
+// add_filter( 'spc_load_styles', __return_false );
 
 // Hook stylesheet
 add_action( 'wp_enqueue_scripts', 'spc_load_stylesheet' );
@@ -55,6 +60,7 @@ function spc_display_sidebar( $content ) {
 
 // Add dynamic sidebar
 add_filter( 'the_content', 'spc_display_sidebar' );
+
 
 
 
