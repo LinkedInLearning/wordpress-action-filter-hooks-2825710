@@ -1,5 +1,5 @@
 <?php
 /**
- * Plugin Name: Hooks Test
- *
- */
+* Plugin Name: Hooks Test
+*
+*/
