@@ -1,7 +1,7 @@
 <?php
 /**
 * Plugin Name: Hooks Test
-* 
+*
 */
 
 // Add text to login screen
