@@ -45,6 +45,18 @@ function spc_register_sidebar() {
 // Hook sidebar
 add_action( 'widgets_init', 'spc_register_sidebar' );
 
+// Display sidebar on single posts
+function spc_display_sidebar( $content ) {
+	if ( is_single() ) {
+		dynamic_sidebar( 'spc-sidebar' );
+	}
+	return $content;
+}
+
+// Add dynamic sidebar
+add_filter( 'the_content', 'spc_display_sidebar' );
+
+
 
 
 
