@@ -1,7 +1,7 @@
 <?php
 /**
 * Plugin Name: Hooks Test
-* 
+*
 */
 
 function hello_world() {
