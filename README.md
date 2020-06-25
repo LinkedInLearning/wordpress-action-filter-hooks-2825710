@@ -1,9 +1,7 @@
-# COURSENAME
+# WordPress: Action and Filter Hooks
 This is the repository for the LinkedIn Learning course WordPress: Action and Filter Hooks. The full course is available from [LinkedIn Learning](LICOURSEURL).
 
-[![COURSENAME](COURSEIMAGE)](LICOURSEURL)
-
-[COURSEDESCRIPTION]
+Take the next step in WordPress development. Learn how to work with action and filter hooks and use them to customize the behavior of WordPress core, themes, and plugins.
 
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
